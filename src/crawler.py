@@ -1,12 +1,13 @@
 # Libraries
 from bs4 import BeautifulSoup
-#from urllib3.request import urlopen as uReq
+from selenium import webdriver
 import requests
+import os
 
-# Opening up connection and grabbing HTML file
-my_url = 'https://pm.gc.ca/eng/news/speeches'
-page = requests.get(my_url)
+# Opening up connection and grabbing HTML file via Chrome
+url = 'https://pm.gc.ca/eng/news/speeches'
+browser = webdriver.Chrome()
+browser.get(url)
 
-page_soup = BeautifulSoup(page.content, "html.parser")
-
-print(page_soup.prettify())
+html = browser.page_source
+print(html)
