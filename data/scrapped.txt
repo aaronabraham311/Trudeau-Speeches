@@ -1,0 +1,468 @@
+<html class="js" dir="ltr" lang="en" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product# content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><head>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<link href="https://pm.gc.ca/sites/pm/themes/pm_trudeau/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
+<meta content="Right Honourable Justin Trudeau - Le très honorable Justin Trudeau" name="description"/>
+<meta content="Drupal 7 (http://drupal.org)" name="generator"/>
+<link href="https://pm.gc.ca/eng/news/speeches" rel="canonical"/>
+<link href="https://pm.gc.ca/eng/news/6971" rel="shortlink"/>
+<meta content="Prime Minister of Canada" property="og:site_name"/>
+<meta content="article" property="og:type"/>
+<meta content="https://pm.gc.ca/eng/news/speeches" property="og:url"/>
+<meta content="News" property="og:title"/>
+<meta content="https://pm.gc.ca/eng/../sites/pm/files/media/icons/og-eng.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Prime Minister of Canada - Premier ministre du Canada" name="twitter:title"/>
+<meta content="Right Honourable Justin Trudeau - Le très honorable Justin Trudeau" name="twitter:description"/>
+<meta content="http://pm.gc.ca/sites/pm/files/media/icons/og-eng.jpg" name="twitter:image"/>
+<noscript><link href="/sites/pm/libraries/wet-boew/dist/theme-gcwu-fegc/css/theme-ns-min.css" rel="stylesheet"/></noscript>
+<title>Speeches | Prime Minister of Canada</title>
+<link href="https://pm.gc.ca/sites/pm/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://pm.gc.ca/sites/pm/files/css/css_Jdtt3Tl52dxH8dxYG3LDxk_0yM3d6kCB5xso7BSBjjU.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://pm.gc.ca/sites/pm/files/css/css_-6bBa__hxWt-3Wo8Lfk8_b0c6WKiZKdrPTwJHsEmGZU.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://pm.gc.ca/sites/pm/files/css/css_9oS0iGLw4M_UnxDiqXIrgOlub8Zae3WYJntMUcNYepA.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="//cdn.jsdelivr.net/bootstrap/3.3.5/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://pm.gc.ca/sites/pm/files/css/css_u8PNKlo02KRcv8aRJHJviw-nNEmw5Tn5S8IWatyaKWw.css" media="all" rel="stylesheet" type="text/css"/>
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="https://pm.gc.ca/profiles/wetkit/modules/panopoly/panopoly_core/css/panopoly-fonts-ie-open-sans.css?ptgn7k" media="all" />
+<![endif]-->
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="https://pm.gc.ca/profiles/wetkit/modules/panopoly/panopoly_core/css/panopoly-fonts-ie-open-sans-bold.css?ptgn7k" media="all" />
+<![endif]-->
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="https://pm.gc.ca/profiles/wetkit/modules/panopoly/panopoly_core/css/panopoly-fonts-ie-open-sans-italic.css?ptgn7k" media="all" />
+<![endif]-->
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="https://pm.gc.ca/profiles/wetkit/modules/panopoly/panopoly_core/css/panopoly-fonts-ie-open-sans-bold-italic.css?ptgn7k" media="all" />
+<![endif]-->
+<script id="twitter-wjs" src="https://platform.twitter.com/widgets.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script src="https://pm.gc.ca/sites/pm/files/js/js_v3sjYrBlNIKoExZigItsGCSJ8syjcjrAAMJDkKizJO4.js"></script>
+<script src="https://pm.gc.ca/sites/pm/files/js/js_issPvDL-3Q-hwNBc2STJE6BExJtIZ7Z9lNUltJOUPNw.js"></script>
+<script src="//cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="https://pm.gc.ca/sites/pm/files/js/js_Lmtuq8T7lFnELvP-HmqMU306nFicEoHugW62bf9QTHg.js"></script>
+<script src="https://pm.gc.ca/sites/pm/files/js/js_1FDWWwMdadblqb94rveBRiw9XlpSET4U5GXPNoTUVk0.js"></script>
+<script>window.CKEDITOR_BASEPATH = '/sites/all/libraries/ckeditor/'</script>
+<script src="https://pm.gc.ca/sites/pm/files/js/js_gPqjYq7fqdMzw8-29XWQIVoDSWTmZCGy9OqaHppNxuQ.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-10314923-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script src="https://pm.gc.ca/sites/pm/files/js/js_xjMRLn77-hdP_oDtaZ4HsI_qoP9SQaJf-ZCWnuFUC9A.js"></script>
+<script src="https://pm.gc.ca/sites/pm/files/js/js_v89jUZ_l2LR8NzEXW2kWQ6me12tC-jCbLw8O3mpuQ2A.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"eng\/","ajaxPageState":{"theme":"pm_trudeau","theme_token":"LNnwe5S2tpMpLs95rXlNhBKFr2vKdGA2ZPGRs0txxCI","jquery_version":"1.10","js":{"sites\/pm\/modules\/pmo-modules\/views_infinite_scroll\/views-infinite-scroll.js":1,"profiles\/wetkit\/modules\/panopoly\/panopoly_widgets\/panopoly-widgets.js":1,"profiles\/wetkit\/modules\/panopoly\/panopoly_widgets\/jquery-ui-tabs-rotate.js":1,"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.tabs.min.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/ajax.js":1,"profiles\/wetkit\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.3.5\/js\/bootstrap.min.js":1,"profiles\/wetkit\/modules\/panopoly\/panopoly_theme\/js\/panopoly-accordion.js":1,"profiles\/wetkit\/modules\/custom\/wetkit_widgets\/wetkit-tabbed-interface.js":1,"sites\/pm\/modules\/extlink\/extlink.js":1,"profiles\/wetkit\/modules\/contrib\/caption_filter\/js\/caption-filter.js":1,"profiles\/wetkit\/modules\/contrib\/views\/js\/base.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/_progress.js":1,"profiles\/wetkit\/modules\/contrib\/views\/js\/ajax_view.js":1,"0":1,"sites\/pm\/modules\/pmo-modules\/google_analytics\/googleanalytics.js":1,"1":1,"sites\/pm\/themes\/pm_trudeau\/hero-slider\/js\/hero.js":1,"sites\/pm\/themes\/pm_trudeau\/js\/extlink.js":1,"sites\/pm\/themes\/pm_trudeau\/js\/hacks.js":1,"sites\/pm\/themes\/pm_trudeau\/js\/pmshare.js":1,"sites\/pm\/themes\/pm_trudeau\/js\/pmsite.js":1,"sites\/pm\/themes\/pm_trudeau\/js\/pmtwitter.js":1,"sites\/pm\/themes\/pm_trudeau\/js\/pmaffix.js":1,"sites\/all\/themes\/bootstrap\/js\/modules\/views\/js\/ajax_view.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/ajax.js":1},"css":{"modules\/system\/system.base.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"profiles\/wetkit\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/wetkit\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"profiles\/wetkit\/modules\/panopoly\/panopoly_core\/css\/panopoly-fonts.css":1,"profiles\/wetkit\/modules\/panopoly\/panopoly_core\/css\/panopoly-dropbutton.css":1,"profiles\/wetkit\/modules\/panopoly\/panopoly_theme\/css\/panopoly-featured.css":1,"profiles\/wetkit\/modules\/panopoly\/panopoly_theme\/css\/panopoly-accordian.css":1,"profiles\/wetkit\/modules\/panopoly\/panopoly_widgets\/panopoly-widgets.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_layouts\/css\/wetkit_layouts.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_widgets\/css\/wetkit-tabbed-interface.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_wysiwyg\/css\/wetkit-wysiwyg.css":1,"sites\/pm\/modules\/extlink\/extlink.css":1,"profiles\/wetkit\/modules\/contrib\/views\/css\/views.css":1,"profiles\/wetkit\/css\/wetkit.css":1,"profiles\/wetkit\/modules\/contrib\/caption_filter\/caption-filter.css":1,"profiles\/wetkit\/modules\/contrib\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"profiles\/wetkit\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/wetkit\/modules\/contrib\/panels\/css\/panels.css":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.3.5\/css\/bootstrap.min.css":1,"sites\/all\/themes\/bootstrap\/css\/3.3.5\/overrides.min.css":1,"sites\/pm\/themes\/pm_trudeau\/hero-slider\/css\/hero.css":1,"sites\/pm\/themes\/pm_trudeau\/css\/style.css":1,"sites\/pm\/themes\/pm_trudeau\/scss\/pm.scss":1,"sites\/pm\/themes\/pm_trudeau\/css\/affix-scrollspy.css":1,"profiles\/wetkit\/modules\/custom\/wetkit_wetboew\/css\/wetkit_wetboew.css":1,"profiles\/wetkit\/modules\/panopoly\/panopoly_core\/css\/panopoly-fonts-ie-open-sans.css":1,"profiles\/wetkit\/modules\/panopoly\/panopoly_core\/css\/panopoly-fonts-ie-open-sans-bold.css":1,"profiles\/wetkit\/modules\/panopoly\/panopoly_core\/css\/panopoly-fonts-ie-open-sans-italic.css":1,"profiles\/wetkit\/modules\/panopoly\/panopoly_core\/css\/panopoly-fonts-ie-open-sans-bold-italic.css":1}},"jcarousel":{"ajaxPath":"\/eng\/jcarousel\/ajax\/views"},"views_infinite_scroll":{"img_path":"https:\/\/pm.gc.ca\/sites\/pm\/modules\/pmo-modules\/views_infinite_scroll\/images\/ajax-loader.gif"},"views":{"ajax_path":"\/eng\/views\/ajax","ajaxViews":{"views_dom_id:9270184701bf5f690cdf144417b07d80":{"view_name":"news","view_display_id":"page_1","view_args":"6971","view_path":"news\/6971","view_base_path":"news","view_dom_id":"9270184701bf5f690cdf144417b07d80","pager_element":0}}},"urlIsAjaxTrusted":{"\/eng\/views\/ajax":true},"better_exposed_filters":{"views":{"news":{"displays":{"page_1":{"filters":[]}}}}},"spotlight_settings":{"rotation_time":4000},"extlink":{"extTarget":0,"extClass":"ext","extLabel":"(link is external)","extImgClass":0,"extIconPlacement":"append","extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"You are leaving the Prime Minister of Canada\u0027s web site.","mailtoClass":"mailto","mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"bootstrap":{"anchorsFix":0,"anchorsSmoothScrolling":0,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet" type="text/css"/>
+<link href="/sites/pm/themes/pm_trudeau/css/print.css" media="print" rel="stylesheet" type="text/css"/>
+<script charset="utf-8" src="https://platform.twitter.com/js/moment~timeline~tweet.a20574004ea824b1c047f200045ffa1e.js"></script><script charset="utf-8" src="https://platform.twitter.com/js/timeline.49693ebcd57b08708ebca7502c7c343d.js"></script></head>
+<body class="html not-front not-logged-in no-sidebars page-news page-news- page-news-6971 region-content i18n-en" style="">
+<div id="skip-link">
+<a class="element-invisible element-focusable" href="#main-content" tabindex="1">Skip to main content</a>
+</div>
+<div class="container page" id="page">
+<div id="sticky-background">
+<div id="sticky-background-inner"></div>
+</div>
+<nav id="sticky-nav" role="navigation">
+<header class="clearfix" id="header" role="banner">
+<section class="header-inner region-branding">
+<!-- start: Branding -->
+<div class="branding-elements clearfix" id="branding">
+<div id="logo">
+<a href="/eng" tabindex="2">
+<img alt="Home Page" id="emblem" src="/sites/pm/themes/pm_trudeau/images/canada-coat-of-arms.svg"/>
+</a>
+</div><!-- end logo div-->
+<!-- start: Site name and Slogan hgroup -->
+<div id="name-and-slogan">
+<h1 id="site-slogan">JUSTIN TRUDEAU, <span id="site-name">PRIME MINISTER OF CANADA</span></h1>
+</div><!-- /end #name-and-slogan -->
+<div class="region region-header"><span id="language-switch-header"><a class="link" href="/fra/nouvelles/discours" lang="fr" tabindex="4">Français</a></span>
+<section class="block block-boxes block-boxes-wetkit_box clearfix" id="block-boxes-goc-search-header">
+<div class="boxes-box" id="boxes-box-goc_search_header"><div class="boxes-box-content"><div class="block block-search no-title odd last block-count-3 block-region-header block-form" id="block-search-form">
+<div class="block-inner clearfix">
+<div class="block-content content">
+<form accept-charset="UTF-8" action="//search-recherche.gc.ca/rGs/s_r" class="search-form" id="search-block-form" method="get" role="search" target="_self">
+<div>
+<div class="container-inline">
+<h2 class="element-invisible">Search form</h2>
+<div class="form-item form-type-textfield form-item-search-block-form">
+<label class="element-invisible" for="searchbox">Search this site</label>
+<input class="custom-search-default-value custom-search-box form-text" id="searchbox" maxlength="128" name="q" onblur="jQuery(this).removeClass('searchboxfocus').css('background-image', 'none')" onfocus="jQuery(this).addClass('searchboxfocus')" placeholder="Search" size="15" tabindex="3" type="search" value=""/>
+</div>
+<div class="form-actions form-wrapper" id="edit-actions">
+<input class="form-submit" id="edit-submit" name="wb-srch-sub" type="submit" value="Search"/>
+</div>
+<input name="st" type="hidden" value="s"/>
+<input name="num" type="hidden" value="10"/>
+<input name="s5bm3ts21rch" type="hidden" value="x"/>
+<input name="st1rt" type="hidden" value="0"/>
+<input name="langs" type="hidden" value="eng"/>
+<input name="cdn" type="hidden" value="pm"/>
+<input class="default-text" name="default_text" type="hidden" value=""/>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div></div></div></section>
+</div></div> <!-- </div> -->
+</section><!-- /end #header-inner -->
+</header>
+</nav>
+<main data-spy="scroll" data-target="#sticky-nav" id="affix-main">
+<!-- begin slider with for loop disabled -->
+<section class="cd-hero pub1">
+<div class="cd-hero-slider autoplay" style="padding-bottom: 176px;">
+<img alt="Prime Minister Justin Trudeau" class="img-responsive" height="600" src="https://pm.gc.ca/sites/pm/files/media/banner/20170719_qc-citadelle_1920x600.jpg" title="Prime Minister Justin Trudeau" typeof="foaf:Image" width="1920"/> </div>
+</section>
+<h1 class="print-only">News</h1>
+<!-- Navigation elements -->
+<nav class="navbar navbar-default visible-xs-block visible-sm-block visible-md-block visible-lg-block affix" id="mega-menu" style="top: 128px;">
+<div class="collapse navbar-collapse">
+<div class="nav clearfix" id="menu-bar">
+<section class="block block-menu clearfix" id="block-menu-menu-trudeau-menu">
+<h2 class="block-title">PM menu</h2>
+<ul class="menu nav"><li class="first leaf active-trail"><a class="active-trail" href="/eng/news" tabindex="12">News</a></li>
+<li class="leaf"><a href="/eng/photos" tabindex="13">Photos &amp; Videos</a></li>
+<li class="leaf"><a href="/eng/prime-minister-justin-trudeau" tabindex="14">Justin Trudeau</a></li>
+<li class="last leaf"><a href="/eng/cabinet" tabindex="15">The Team</a></li>
+</ul></section>
+</div> </div>
+<div class="columns clearfix hamburger-title">
+<div class="content-inner row">
+<div class="title-bar">
+<div class="title-row">
+<div class="nav-select">
+</div>
+<div class="hidden" id="hamburger-search-form" style="display: none;">
+<div id="hamburger-search-box">
+<form accept-charset="UTF-8" action="//search-recherche.gc.ca/rGs/s_r" id="hamburger-search-block-form" method="get" role="search" target="_self">
+<h2 class="element-invisible">Search form</h2>
+<div class="input-group">
+<label class="element-invisible" for="hamburger-searchbox">Search pm.gc.ca</label>
+<input class="form-control" id="hamburger-searchbox" name="q" placeholder="Search pm.gc.ca" type="search"/>
+<span class="input-group-btn" id="hamburger-edit-actions">
+<button class="btn btn-default" form="hamburger-search-block-form" id="hamburger-edit-submit" type="submit">
+<span aria-hidden="true" class="glyphicon glyphicon-search"></span><span class="hidden">Hamburger Menu close button</span>
+</button>
+</span>
+</div>
+<input name="st" type="hidden" value="s"/>
+<input name="num" type="hidden" value="10"/>
+<input name="s5bm3ts21rch" type="hidden" value="x"/>
+<input name="st1rt" type="hidden" value="0"/>
+<input name="langs" type="hidden" value="eng"/>
+<input name="cdn" type="hidden" value="pm"/>
+<input class="default-text" name="default_text" type="hidden" value=""/>
+</form>
+</div>
+</div>
+<div class="ham-lang hidden-sm hidden-md hidden-lg">
+<span class="hamburger-helper">.</span>
+<button class="mobile-search hidden-sm hidden-md hidden-lg" onclick="PMMobile.clickMobileSearch();" tabindex="8"></button>
+<button class="navbar-toggle collapsed" data-target="#hamburger-dropdown" data-toggle="collapse" onclick="PMMobile.hideSearch();" tabindex="9" type="button">
+<span class="to-expand">
+<span class="hidden">Menu Burger</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</span>
+<span class="to-collapse">
+<span class="hidden">Menu Burger X</span>
+<i aria-hidden="true" class="hamburger-close fa fa-times"></i>
+</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<div class="page-title clearfix">
+<h1>
+          Speeches        </h1>
+</div>
+</div>
+</nav>
+<div class="columns clearfix" id="columns" style="padding-top: 0px;">
+<nav class="collapse" id="hamburger-dropdown" style="transition: none 0s ease 0s;">
+<div class="ham-lang-switcher"> <a class="link" href="/fra/nouvelles/discours" lang="fr" tabindex="10">Français</a></div>
+<div class="nav clearfix" id="navigation-hamburger">
+<section class="block block-menu clearfix" id="block-menu-menu-trudeau-burger">
+<h2 class="block-title">PM Mobile Menu</h2>
+<ul class="menu nav"><li class="first expanded active-trail active dropdown"><a class="active-trail active dropdown-toggle" data-target="#" data-toggle="dropdown" href="/eng/news" tabindex="11">News <span class="caret"><i aria-hidden="true" class="hamburger-menu-close fa fa-plus"></i><i aria-hidden="true" class="hamburger-menu-close fa fa-minus"></i></span></a><ul class="dropdown-menu"><li class="first leaf active-trail disable-active active"><a class="active-trail active disable-active" href="/eng/news" tabindex="11">All Types</a></li>
+<li class="leaf disable-active"><a class="disable-active" href="/eng/news/releases" tabindex="11">News Releases</a></li>
+<li class="leaf disable-active"><a class="disable-active" href="/eng/news/statements" tabindex="11">Statements</a></li>
+<li class="last leaf disable-active"><a class="disable-active" href="/eng/news/itineraries" tabindex="11">Itineraries</a></li>
+</ul></li>
+<li class="expanded dropdown"><a class="dropdown-toggle" data-target="#" data-toggle="dropdown" href="/eng/photos" tabindex="11">Photos &amp; Videos <span class="caret"><i aria-hidden="true" class="hamburger-menu-close fa fa-plus"></i><i aria-hidden="true" class="hamburger-menu-close fa fa-minus"></i></span></a><ul class="dropdown-menu"><li class="first leaf disable-active"><a class="photo-burger disable-active" href="/eng/photos" tabindex="11">Photos</a></li>
+<li class="last leaf disable-active"><a class="disable-active" href="/eng/videos" tabindex="11">Videos</a></li>
+</ul></li>
+<li class="leaf"><a href="/eng/prime-minister-justin-trudeau" tabindex="11">Justin Trudeau</a></li>
+<li class="expanded dropdown"><a class="dropdown-toggle" data-target="#" data-toggle="dropdown" href="/eng/cabinet" tabindex="11">The Team <span class="caret"><i aria-hidden="true" class="hamburger-menu-close fa fa-plus"></i><i aria-hidden="true" class="hamburger-menu-close fa fa-minus"></i></span></a><ul class="dropdown-menu"><li class="first leaf disable-active"><a class="disable-active" href="/eng/cabinet" tabindex="11">Cabinet</a></li>
+<li class="leaf disable-active"><a class="disable-active" href="/eng/parliamentary-secretaries" tabindex="11">Parliamentary Secretaries</a></li>
+<li class="last leaf disable-active"><a class="disable-active" href="/eng/mandate-letters" tabindex="11">Mandate Letters</a></li>
+</ul></li>
+<li class="last leaf"><a href="/eng/connect" tabindex="11">Connect</a></li>
+</ul></section>
+</div> <div class="page-title clearfix">
+<h1>
+          Speeches        </h1>
+</div>
+</nav>
+<div class="content-column" id="content-column" role="main">
+<div class="content-inner">
+<section class="col-xs-12 col-sm-9 col-md-9 col-lg-9 region-main-content" id="main-content" style="padding-bottom: 0px;"> <!-- Messages and Help -->
+<!-- region: Highlighted -->
+<header class="clearfix" id="main-content-header">
+</header>
+<!-- region: Main Content -->
+<div class="region" id="content">
+<!-- Breadcrumb is scrollable -->
+<div class="breadcrumb-div col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<ol class="breadcrumb breadcrumb-heading"><li><a href="/eng/news">News</a></li>
+<li class="active">Speeches</li>
+</ol> </div>
+<section class="block block-system clearfix" id="block-system-main" style="height: auto;"><div class="view view-news view-id-news view-display-id-page_1 view-dom-id-0a20a334690398f1cd003d716e6c9bd8">
+<div class="view-content">
+<div aria-live="polite" aria-relevant="additions" class="item-list"> <ul> <li class="views-row views-row-1 pub1 default-on clk" tabindex="150">
+<div aria-hidden="false" class="teaser Speeches col-xs-12 col-sm-12 col-md-12 col-lg-12 crop1" data-nid="50849" data-tid="6971">
+<div class="thumb" style="padding-top: 0px; padding-bottom: 0px;">
+<img alt="" class="img-responsive" src="/sites/pm/files/styles/news_listing_square/public/default_news/20180501_default_news2.jpg?itok=a1pfZTOA" title=""/></div>
+<div class="news-teaser">
+<div class="title">Prime Minister’s speaking notes for Plastics announcement</div>
+<div class="body">Since we formed government, we’ve been hard at work implementing forward-thinking policies that will leave the next generation with a cleaner planet.</div>
+<div class="category">Speeches<br/>Mont-Saint-Hilaire, Quebec - <span class="date-display-single" content="2019-06-10T18:15:00-04:00" datatype="xsd:dateTime" property="dc:date">June 10, 2019</span></div>
+</div>
+</div>
+<div class="sticky0"></div>
+<div aria-hidden="true" class="full-article"></div> </li>
+<li class="views-row views-row-2 pub1 default-on clk" tabindex="200">
+<div aria-hidden="false" class="teaser Speeches col-xs-12 col-sm-12 col-md-12 col-lg-12 crop2" data-nid="50731" data-tid="6971">
+<div class="thumb" style="padding-top: 0px; padding-bottom: 0px;">
+<img alt="" class="img-responsive" src="/sites/pm/files/styles/news_listing_square/public/default_news/20180501_default_news1.jpg?itok=OamUKpty" title=""/></div>
+<div class="news-teaser">
+<div class="title">Prime Minister’s remarks for the National Inquiry into Missing and Murdered Indigenous Women and Girls closing ceremony</div>
+<div class="body">Good morning, everyone. Let me start by acknowledging that we are on traditional Algonquin territory. Thank you, Elders, for your words. Thank you to the Commissioners for your tireless work, and your commitment to unearthing these important truths. And thank you to the people featured in the videos.</div>
+<div class="category">Speeches<br/>Gatineau, Quebec - <span class="date-display-single" content="2019-06-03T10:00:00-04:00" datatype="xsd:dateTime" property="dc:date">June 3, 2019</span></div>
+</div>
+</div>
+<div class="sticky0"></div>
+<div aria-hidden="true" class="full-article"></div> </li>
+<li class="views-row views-row-3 pub1 default-on clk" tabindex="250">
+<div aria-hidden="false" class="teaser Speeches col-xs-12 col-sm-12 col-md-12 col-lg-12 crop1" data-nid="50572" data-tid="6971">
+<div class="thumb" style="padding-top: 0px; padding-bottom: 0px;">
+<img alt="" class="img-responsive" src="/sites/pm/files/styles/news_listing_square/public/default_news/20180501_default_news9.jpg?itok=iI5l5VCG" title=""/></div>
+<div class="news-teaser">
+<div class="title">Statement of Exoneration for Chief Poundmaker</div>
+<div class="body">Elders, leaders and members of the Poundmaker Cree Nation – It is a privilege to be here with you today to honour the life and legacy of Chief Poundmaker or Pihtokahanapiwiyin.</div>
+<div class="category">Speeches<br/>Poundmaker Cree Nation, Saskatchewan - <span class="date-display-single" content="2019-05-23T12:45:00-04:00" datatype="xsd:dateTime" property="dc:date">May 23, 2019</span></div>
+</div>
+</div>
+<div class="sticky0"></div>
+<div aria-hidden="true" class="full-article"></div> </li>
+<li class="views-row views-row-4 pub1 default-on clk" tabindex="300">
+<div aria-hidden="false" class="teaser Speeches col-xs-12 col-sm-12 col-md-12 col-lg-12 crop2" data-nid="49750" data-tid="6971">
+<div class="thumb" style="padding-top: 0px; padding-bottom: 0px;">
+<img alt="" class="img-responsive" src="/sites/pm/files/styles/news_listing_square/public/default_news/20180501_default_news8.jpg?itok=mHjU3oIn" title=""/></div>
+<div class="news-teaser">
+<div class="title">PM speech to House of Commons on New Zealand mosque shootings</div>
+<div class="body">Mr. Speaker, Before we begin, our hearts go out to the people of Utrecht and the Netherlands, who are reeling in the aftermath of a tram shooting. It’s in the early stages, but we do know that there are fatalities, and a number of injuries. Police are looking at it as a possible terrorist incident.We stand with our Dutch friends as they grapple with the consequences of this violence, and we will be reaching out to our counterparts to offer our unwavering support.</div>
+<div class="category">Speeches<br/>Ottawa, Ontario - <span class="date-display-single" content="2019-03-18T21:00:00-04:00" datatype="xsd:dateTime" property="dc:date">March 18, 2019</span></div>
+</div>
+</div>
+<div class="sticky0"></div>
+<div aria-hidden="true" class="full-article"></div> </li>
+<li class="views-row views-row-5 pub1 default-on clk" tabindex="350">
+<div aria-hidden="false" class="teaser Speeches col-xs-12 col-sm-12 col-md-12 col-lg-12" data-nid="49675" data-tid="6971">
+<div class="thumb" style="padding-top: 0px; padding-bottom: 0px;">
+<img alt="" class="img-responsive" src="/sites/pm/files/styles/news_listing_square/public/default_news/20180501_default_news4.jpg?itok=QxzhL5ff" title=""/></div>
+<div class="news-teaser">
+<div class="title">Statement of Apology on Behalf of the Government of Canada to Inuit for the Management of the Tuberculosis Epidemic from the 1940s-1960s</div>
+<div class="body">CHECK AGAINST DELIVERY My friends, to know where we are, and where we’re going, we first have to know where we came from.We have to know our history.We have to face the hard truths that are part of our past.Because for too long, the government’s relationship with Inuit was one of double standards, and of unfair, unequal treatment.While Canada was busy adopting the United Nations Universal Declaration of Human Rights, it was treating people throughout Inuit Nunangat as inferior, identifying Inuit with numbers instead of names.</div>
+<div class="category">Speeches<br/>Iqaluit, Nunavut - <span class="date-display-single" content="2019-03-08T21:15:00-05:00" datatype="xsd:dateTime" property="dc:date">March 8, 2019</span></div>
+</div>
+</div>
+<div class="sticky0"></div>
+<div aria-hidden="true" class="full-article"></div> </li>
+<li class="views-row views-row-6 pub1 default-on clk" tabindex="400">
+<div aria-hidden="false" class="teaser Speeches col-xs-12 col-sm-12 col-md-12 col-lg-12 crop1" data-nid="49663" data-tid="6971">
+<div class="thumb" style="padding-top: 0px; padding-bottom: 0px;">
+<img alt="" class="img-responsive" src="/sites/pm/files/styles/news_listing_square/public/default_news/20180501_default_news5.jpg?itok=-vUpa9Eq" title=""/></div>
+<div class="news-teaser">
+<div class="title">PM remarks for Lunar Gateway</div>
+<div class="body">CHECK AGAINST DELIVERYHello everyone!I’m delighted to be here at the Canadian Space Agency to share some great news with Canadians.I’d like to start by thanking the President of the Agency, Sylvain Laporte, for welcoming me.I also want to welcome Minister Bains, Minister Duncan, and Minister Garneau, who are here with me this morning, as well as our Canadian astronauts and the members of the Space Advisory Board.Thank you for joining us.Being here today, I can’t help but think of David Saint‑Jacques, who’s currently orbiting our planet.</div>
+<div class="category">Speeches<br/>Saint-Hubert, Quebec - <span class="date-display-single" content="2019-02-28T18:15:00-05:00" datatype="xsd:dateTime" property="dc:date">February 28, 2019</span></div>
+</div>
+</div>
+<div class="sticky0"></div>
+<div aria-hidden="true" class="full-article"></div> </li>
+<li class="views-row views-row-7 pub1 default-on clk" tabindex="450">
+<div aria-hidden="false" class="teaser Speeches col-xs-12 col-sm-12 col-md-12 col-lg-12 crop1" data-nid="48683" data-tid="6971">
+<div class="thumb" style="padding-top: 0px; padding-bottom: 0px;">
+<img alt="" class="img-responsive" src="/sites/pm/files/styles/news_listing_square/public/default_news/20180501_default_news2.jpg?itok=a1pfZTOA" title=""/></div>
+<div class="news-teaser">
+<div class="title">PM speaking notes for the Assembly of First Nations</div>
+<div class="body">CHECK AGAINST DELIVERYGood afternoon.Thank you, National Chief Bellegarde, for that kind introduction.Let me begin by recognizing that we are on the traditional land of the Algonquin People. We acknowledge them as the past, present, and future caretakers of this land.This afternoon, let me also join the AFN in honouring the last Mohawk code talker from the Second World War, Veteran Louis Levi Oakes.</div>
+<div class="category">Speeches<br/>Ottawa, Ontario - <span class="date-display-single" content="2018-12-04T17:45:00-05:00" datatype="xsd:dateTime" property="dc:date">December 4, 2018</span></div>
+</div>
+</div>
+<div class="sticky0"></div>
+<div aria-hidden="true" class="full-article"></div> </li>
+<li class="views-row views-row-8 pub1 default-on clk" tabindex="500">
+<div aria-hidden="false" class="teaser Speeches col-xs-12 col-sm-12 col-md-12 col-lg-12 crop2" data-nid="48313" data-tid="6971">
+<div class="thumb" style="padding-top: 0px; padding-bottom: 0px;">
+<img alt="" class="img-responsive" src="/sites/pm/files/styles/news_listing_square/public/default_news/20180501_default_news1.jpg?itok=OamUKpty" title=""/></div>
+<div class="news-teaser">
+<div class="title">Prime Minister's remarks at a Vimy Ridge memorial with veterans</div>
+<div class="body">CHECK AGAINST DELIVERYGood morning everyone.First of all, I want to thank you for being here. It's an honour for me to get to share a few words with you.101 years ago this year, 7,004 Canadians were injured in the battle that began here at Vimy Ridge.3,598 Canadians would never return home. Canada’s population numbered only 8 million at the time.That was 100 years ago, but the realities of war – the tragic loss of those fallen in battle, the magnitude of sacrifice – transcend time.You know that better than anyone.</div>
+<div class="category">Speeches<br/>Vimy, France - <span class="date-display-single" content="2018-11-10T12:15:00-05:00" datatype="xsd:dateTime" property="dc:date">November 10, 2018</span></div>
+</div>
+</div>
+<div class="sticky0"></div>
+<div aria-hidden="true" class="full-article"></div> </li>
+<li class="views-row views-row-9 pub1 default-on clk" tabindex="550">
+<div aria-hidden="false" class="teaser Speeches col-xs-12 col-sm-12 col-md-12 col-lg-12 crop2" data-nid="48289" data-tid="6971">
+<div class="thumb" style="padding-top: 0px; padding-bottom: 0px;">
+<img alt="" class="img-responsive" src="/sites/pm/files/styles/news_listing_square/public/default_news/20180501_default_news9.jpg?itok=iI5l5VCG" title=""/></div>
+<div class="news-teaser">
+<div class="title">Statement of apology on behalf of the Government of Canada to the passengers of the MS St. Louis</div>
+<div class="body">CHECK AGAINST DELIVERYMr. Speaker –On May 15, 1939, more than nine hundred German Jews boarded an ocean liner known as the St. Louis.The passengers had been stripped of their possessions, chased out of their homes, forced out of their schools, and banned from their professions by their own government.Their synagogues had been burnt. Their stores raided.</div>
+<div class="category">Speeches<br/>Ottawa, Ontario - <span class="date-display-single" content="2018-11-07T19:15:00-05:00" datatype="xsd:dateTime" property="dc:date">November 7, 2018</span></div>
+</div>
+</div>
+<div class="sticky0"></div>
+<div aria-hidden="true" class="full-article"></div> </li>
+<li class="views-row views-row-10 pub1 default-on clk" tabindex="600">
+<div aria-hidden="false" class="teaser Speeches col-xs-12 col-sm-12 col-md-12 col-lg-12 crop2" data-nid="48131" data-tid="6971">
+<div class="thumb" style="padding-top: 0px; padding-bottom: 0px;">
+<img alt="" class="img-responsive" src="/sites/pm/files/styles/news_listing_square/public/default_news/20180501_default_news8.jpg?itok=mHjU3oIn" title=""/></div>
+<div class="news-teaser">
+<div class="title">Prime Minister’s speaking notes for pollution pricing announcement</div>
+<div class="body">My friends, I'm here to talk to you about something that you think about all the time: your future.</div>
+<div class="category">Speeches<br/>Toronto, Ontario - <span class="date-display-single" content="2018-10-23T21:45:00-04:00" datatype="xsd:dateTime" property="dc:date">October 23, 2018</span></div>
+</div>
+</div>
+<div class="sticky0"></div>
+<div aria-hidden="true" class="full-article"></div> </li>
+</ul></div> </div>
+<ul class="pager pager--infinite-scroll">
+<li class="pager__item">
+<a href="/eng/views/ajax?page=1&amp;thmb=" tabindex="600">Show More</a> </li>
+</ul>
+</div></section>
+</div>
+</section> <!-- /end #main-content -->
+<!-- region: Sidebar -->
+<div class="col-xs-12 col-sm-3 col-md-3 pull-right text-center" id="trudeau-sidebar">
+<div class="columns clearfix">
+<div class="twitter-pop-div"><a href="https://twitter.com/CanadianPM" target="_blank"><span class="twitter-pop twitter-pop-bg-en" style="width: 280px; height: 60px;"><span class="hidden">Canada Live twitter stream. Follow @Canadian PM Twitter</span></span></a></div><nav id="trudeau-twitter">
+<section class="block block-boxes block-boxes-wetkit_box clearfix" id="block-boxes-twitter">
+<h2 class="block-title">@PMWebUpdates</h2>
+<div class="boxes-box" id="boxes-box-twitter"><div class="boxes-box-content"><iframe allowfullscreen="true" allowtransparency="true" class="twitter-timeline twitter-timeline-rendered" data-widget-id="list:CanadianPM:canada_live1" frameborder="0" id="twitter-widget-0" scrolling="no" style="position: static; visibility: visible; display: inline-block; width: 520px; height: 1000px; padding: 0px; border: none; max-width: 100%; min-width: 180px; margin-top: 0px; margin-bottom: 0px; min-height: 200px;" title="Twitter Timeline"></iframe><a class="twitter-timeline ext" data-aria-polite="assertive" data-chrome="noscrollbar" data-height="1000" data-twitter-extracted-i1562203369915560885="true" data-width="520" href="https://twitter.com/CanadianPM/lists/canada-live1">A Twitter List by CanadianPM</a><span class="ext"></span>
+<script>
+<!--//--><![CDATA[// ><!--
+
+<!--//--><![CDATA[// ><!--
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+//--><!]]]]><![CDATA[>
+
+//--><!]]>
+</script>
+</div></div></section>
+</nav>
+</div>
+</div>
+</div><!-- /end .content-inner -->
+</div><!-- /end #content-column -->
+</div><!-- /end #columns -->
+<!-- region: Tertiary Content -->
+<div id="sub-footer">
+</div>
+<!-- region: Footer -->
+<div class="footer-container">
+<div class="footer-outer">
+<footer>
+<div class="title-bar">
+<div class="page-title">
+<div class="page-title-row">
+<div id="block-boxes-social-media-footer-title">Justin Trudeau, <span class="footer-pm">Prime Minister of Canada</span></div>
+<ul id="block-boxes-social-media-footer">
+<li><a class="fa fa-twitter-square fa-inverse ext" href="//www.twitter.com/canadianpm" tabindex="32000" title="Twitter"><span class="hidden">Twitter</span></a></li>
+<li><a class="fa fa-youtube-square fa-inverse ext" href="//www.youtube.com/pmcanada" tabindex="32001" title="YouTube"><span class="hidden">YouTube</span></a></li>
+<li><a class="fa fa-flickr fa-inverse ext" href="//www.flickr.com/photos/pmtrudeau" tabindex="32002" title="Flickr"><span class="hidden">Flickr</span></a></li>
+<li><a class="fa fa-rss-square fa-inverse" href="/eng/news.rss" tabindex="32003" title="RSS"><span class="hidden">RSS</span></a></li>
+<li><a class="pmshare-share fa fa-share-alt-square fa-inverse processed" href="#" tabindex="32004" title="Share this Page"><span class="hidden">Share this Page</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="footer-inner">
+<div class="region-signature" id="sig">
+<div class="region region-footer"><div class="region-inner clearfix">
+<section class="block block-menu-block clearfix" id="block-menu-block-wetkit-menu-blocks-2">
+<h2 class="block-title">Mid Footer</h2>
+<div class="menu-block-wrapper menu-block-wetkit_menu_blocks-2 menu-name-menu-wet-mid-footer parent-mlid-0 menu-level-1">
+<ul class="menu nav"><li class="first expanded active-trail menu-mlid-9273 active dropdown"><a class="active-trail" href="/eng/news" tabindex="32005">News <span class="caret"><i aria-hidden="true" class="hamburger-menu-close fa fa-plus"></i><i aria-hidden="true" class="hamburger-menu-close fa fa-minus"></i></span></a><ul class="list-unstyled"><li class="first leaf menu-mlid-9305"><a href="/eng/news/backgrounders" tabindex="32006">Backgrounders</a></li>
+<li class="leaf active menu-mlid-9306"><a class="active" href="/eng/news/speeches" tabindex="32007">Speeches</a></li>
+<li class="last leaf menu-mlid-10387"><a href="/eng/news/the-briefing-room" tabindex="32008">Readouts</a></li>
+</ul></li>
+<li class="leaf menu-mlid-9917"><a href="/eng/photos" tabindex="32009">Photos &amp; Videos</a></li>
+<li class="leaf menu-mlid-9268"><a href="/eng/prime-minister-justin-trudeau" tabindex="32010">Justin Trudeau</a></li>
+<li class="expanded menu-mlid-9270 dropdown"><a href="/eng/cabinet" tabindex="32011">The Team <span class="caret"><i aria-hidden="true" class="hamburger-menu-close fa fa-plus"></i><i aria-hidden="true" class="hamburger-menu-close fa fa-minus"></i></span></a><ul class="list-unstyled"><li class="first leaf menu-mlid-9303"><a href="/eng/cabinet" tabindex="32012">Cabinet</a></li>
+<li class="leaf menu-mlid-9300"><a href="/eng/parliamentary-secretaries" tabindex="32013">Parliamentary Secretaries</a></li>
+<li class="leaf menu-mlid-9301"><a href="/eng/mandate-letters" tabindex="32014">Ministerial Mandate Letters</a></li>
+<li class="last leaf menu-mlid-9325"><a href="/eng/find-out-more" tabindex="32015">Find Out More</a></li>
+</ul></li>
+<li class="expanded menu-mlid-9260 dropdown"><a href="/eng/connect" tabindex="32016" title="Subscribe to the Prime Minister of Canada email distribution or obtain greetings for birthdays, anniversaries and more.">Connect <span class="caret"><i aria-hidden="true" class="hamburger-menu-close fa fa-plus"></i><i aria-hidden="true" class="hamburger-menu-close fa fa-minus"></i></span></a><ul class="list-unstyled"><li class="first last leaf menu-mlid-10377"><a href="/eng/media" tabindex="32017">Media</a></li>
+</ul></li>
+<li class="expanded menu-mlid-9262 dropdown"><a href="/eng/important-notices" tabindex="32018">Important Notices <span class="caret"><i aria-hidden="true" class="hamburger-menu-close fa fa-plus"></i><i aria-hidden="true" class="hamburger-menu-close fa fa-minus"></i></span></a><ul class="list-unstyled"><li class="first leaf menu-mlid-9322"><a href="/eng/important-notices#privacy" tabindex="32019">Privacy Statement</a></li>
+<li class="last leaf menu-mlid-9298"><a href="/eng/important-notices#Copyright" tabindex="32020">Copyright</a></li>
+</ul></li>
+<li class="last leaf menu-mlid-9261"><a href="/eng/help" tabindex="32021">Help</a></li>
+</ul></div>
+</section>
+</div></div> <div class="sig-icons" id="canada-logo">
+<a class="ext" href="https://www.canada.ca/en.html" tabindex="32022" title="Government of Canada">              <span class="hidden">Government of Canada</span></a><span class="ext"></span>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</div>
+<!-- Create the social-media sharing popup dialog -->
+<div class="modal fade" id="pmshare-modal" role="dialog">
+<div style="display: table; height: 100%; width: 100%">
+<div style="display: table-cell; height: 100%; text-align: center; vertical-align: middle;">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal" type="button">×</button>
+<h2 class="modal-title">Share this Page</h2>
+</div>
+<div class="modal-body">
+<ul class="list-unstyled colcount-xs-2 links"><li class="hidden"> - </li><li><span class="pmshare-link email processed" data-network="Email" title="Email">Email</span></li><li><span class="pmshare-link twitter processed" data-network="Twitter" title="Twitter">Twitter</span></li><li><span class="pmshare-link linkedin processed" data-network="LinkedIn" title="LinkedIn">LinkedIn</span></li><li><span class="pmshare-link facebook processed" data-network="Facebook" title="Facebook">Facebook</span></li></ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Create the links popup dialog -->
+<div class="modal fade" id="pmlinks-modal" role="dialog">
+<div style="display: table; height: 100%; width: 100%">
+<div style="display: table-cell; height: 100%; text-align: center; vertical-align: middle;">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal" type="button">×</button>
+<h2 class="modal-title">Links</h2>
+</div>
+<div class="modal-body">
+<ul class="list-unstyled"><li class="hidden"> - </li></ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="busy" style="position: fixed; z-index: 11000; display: none; left: 600px; top: 276px;"><img alt="Busy..." src="/sites/pm/themes/pm_trudeau/images/loading-red-1.gif"/></div></main><!-- this tag opens in the header include file at the end of header tag to be used by scrollspy-->
+</div>
+<script src="https://pm.gc.ca/sites/pm/files/js/js_DaZjlaJyvxZflQvj1uOhApOzeHdfZgaSWaJUZvLp-Zk.js"></script>
+<script src="https://pm.gc.ca/sites/pm/files/js/js_L50O_PWoAuMOxVjnzZCkNSSmI0kFwhZsO1_KS8WnGKw.js"></script>
+<iframe allowtransparency="true" frameborder="0" scrolling="no" src="https://platform.twitter.com/widgets/widget_iframe.d753e00c3e838c1b2558149bd3f6ecb8.html?origin=https%3A%2F%2Fpm.gc.ca" style="display: none;" title="Twitter settings iframe"></iframe><iframe allowfullscreen="true" allowtransparency="true" frameborder="0" id="rufous-sandbox" scrolling="no" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe"></iframe></body></html>
