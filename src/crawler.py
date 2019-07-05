@@ -20,6 +20,11 @@ soup = BeautifulSoup(html, 'html.parser')
 with open('../data/scrapped.txt', 'w') as file:
 	file.write(str(soup))
 
-# Clicking a speech box
-browser.find_element_by_css_selector(".views-row.views-row-1.pub1.default-on.clk").click()
+# Creating loop to open up all divs with same class name
+article_list = browser.find_elements_by_css_selector(".views-row.pub1.default-on.clk")
 
+for i in range(0, len(article_list)):
+	if article_list[i].is_displayed():
+		article_list[i].click() # Getting error: element is not clickable. Refer to: https://stackoverflow.com/questions/37879010/selenium-debugging-element-is-not-clickable-at-point-x-y
+
+# Problem: only 10 articles can be found by css_selector
