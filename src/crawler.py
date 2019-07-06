@@ -23,8 +23,24 @@ with open('../data/scrapped.txt', 'w') as file:
 # Creating loop to open up all divs with same class name
 article_list = browser.find_elements_by_css_selector(".views-row.pub1.default-on.clk")
 
-for i in range(0, len(article_list)):
-	if article_list[i].is_displayed():
-		article_list[i].click() # Getting error: element is not clickable. Refer to: https://stackoverflow.com/questions/37879010/selenium-debugging-element-is-not-clickable-at-point-x-y
+for article in article_list:
+	article.click()
+	time.sleep(1)
+
+	# Getting date
+	date = browser.find_element_by_class_name("date-display-single")
+	print(date.text)
+
+	# Getting place
+	place = browser.find_element_by_xpath("//div[@class = 'inline-date']")
+	print(place.text)
+
+	# Getting speech
+	speech_div = browser.find_elements_by_xpath("//span[@lang = 'EN-CA']")
+	
+	for p in speech_div:
+		print(p.text)
+	
+	
 
 # Problem: only 10 articles can be found by css_selector
