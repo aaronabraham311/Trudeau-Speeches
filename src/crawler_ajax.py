@@ -9,7 +9,7 @@ headers = {
 def make_soup(url: str) -> BeautifulSoup:
     res = requests.get(url, headers=headers)
     res.raise_for_status()
-    print("soup success")
+    
     return BeautifulSoup(res.text, 'html.parser')
 
 
@@ -25,9 +25,11 @@ def fetch_speech_details(speech_id: str) -> str:
     data = res.json()
     html = data[1]['data']
     soup = BeautifulSoup(html, 'html.parser')
+
     body = soup.select_one('.views-field-body')
-    print("fetch success")
-    return str(body)
+    speech_text = body.get_text()
+
+    return str(speech_text)
 
 
 def scrape_speeches(soup: BeautifulSoup) -> dict:
