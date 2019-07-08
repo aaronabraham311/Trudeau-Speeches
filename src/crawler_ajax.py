@@ -1,7 +1,10 @@
-# Libraries
+# Libraries for scraping
 import requests
 from bs4 import BeautifulSoup
 from pprint import pprint
+
+# Libraries for database setup
+import pymongo import MongoClient
 
 # Using Firefox to scrape data
 headers = {
@@ -63,6 +66,26 @@ def scrape_speeches(soup: BeautifulSoup) -> dict:
         speeches.append(s)
     return speeches
 
+# Storing speeches in MongoDB database
+def store_database(speeches: dict):
+
+    try:
+        # Setting up MongoDB client
+        os.system('mongod')  # Initializing MongoDB daemon
+        client = MongoClient('localhost', 27017)
+
+        # Setting up dataset and storing data
+        db = client.trudeau_speeches
+        db_speeches = db.db_speeches
+
+        result = db_speeches.insert_many(speeches)
+        print ("Database post success!")
+    except:
+        print ("Database post was not a success")
+
+    return
+
+
 if __name__ == "__main__":
 
     # Original URL of website
@@ -73,5 +96,7 @@ if __name__ == "__main__":
 
     # Scraping speeches one by one
     speeches = scrape_speeches(soup)
-
     pprint(speeches)
+
+    # Saving speeches in MongoDB database
+    store_database(speeches)
