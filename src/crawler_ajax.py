@@ -78,13 +78,26 @@ def store_database(speeches: dict):
         db = client.trudeau_speeches
         db_speeches = db.db_speeches
 
+        # Inserting speeches into database
         result = db_speeches.insert_many(speeches)
+
+        # Writing IDs to text file
+        write_id(result)
+
         print ("Database post success!")
     except:
         print ("Database post was not a success")
 
     return
 
+# Writing ID to txt file for future use
+def write_id(db_result):
+    # Extracting IDs for posts
+    object_ids = db_result.inserted_ids
+
+    # Opening file and writing IDs in string format
+    file_object = open('../data/speech_ids.txt', mode = 'w')
+    file_object.write(str(object_ids))
 
 if __name__ == "__main__":
 
