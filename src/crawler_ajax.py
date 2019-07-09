@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from pprint import pprint
 
 # Libraries for database setup
-import pymongo import MongoClient
+from pymongo import MongoClient
 
 # Using Firefox to scrape data
 headers = {
@@ -68,25 +68,20 @@ def scrape_speeches(soup: BeautifulSoup) -> dict:
 
 # Storing speeches in MongoDB database
 def store_database(speeches: dict):
+    
+    client = MongoClient('localhost', 27017)
 
-    try:
-        # Setting up MongoDB client
-        os.system('mongod')  # Initializing MongoDB daemon
-        client = MongoClient('localhost', 27017)
+    # Setting up dataset and storing data
+    db = client.trudeau_speeches
+    db_speeches = db.db_speeches
 
-        # Setting up dataset and storing data
-        db = client.trudeau_speeches
-        db_speeches = db.db_speeches
+    # Inserting speeches into database
+    result = db_speeches.insert_many(speeches)
 
-        # Inserting speeches into database
-        result = db_speeches.insert_many(speeches)
+    # Writing IDs to text file
+    write_id(result)
 
-        # Writing IDs to text file
-        write_id(result)
-
-        print ("Database post success!")
-    except:
-        print ("Database post was not a success")
+    print ("Database post success!")
 
     return
 
