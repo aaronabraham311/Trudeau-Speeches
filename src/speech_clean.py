@@ -11,24 +11,32 @@ def get_speeches():
 
     # Database and document navigation
     db = connection.trudeau_speeches
-    speeches = db.speeches
+    speeches = db.db_speeches
 
-    # Extracting speech data
-    cursor = speeches.find()
-    speechList = []
+    # Updating speech data
+    for speech in speeches.find():
+        speech_content = speech['details']
+        speech_id = speech['_id']
+        new_speech = speech_content.replace('CHECK AGAINST DELIVERY', '')
 
-    for speech in cursor:
-        speechList.append(speech)
+        try:
+            speeches.update_one(
+                {'_id': speech_id},
+                {'$set': {'details': new_speech}}
+            )
+        except:
+            print('Database update not successful')
 
-    return speechList
 
 
 # Main code block
 if __name__ == "__main__":
 
     # Getting speeches from MongoDB
-    speechList = get_speeches()
-    pprint(speechList)
+    #speechList = get_speeches()
+    #pprint(speechList)
+
+    get_speeches()
 
     # Parsing strings together
 
