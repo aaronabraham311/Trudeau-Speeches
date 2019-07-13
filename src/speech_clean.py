@@ -17,7 +17,7 @@ def get_speeches():
     for speech in speeches.find():
         speech_content = speech['details']
         speech_id = speech['_id']
-        new_speech = speech_content.replace('CHECK AGAINST DELIVERY', '')
+        new_speech = speech_content.replace('CHECK AGAINST DELIVERY', '') # Removes random comment in every speech
 
         try:
             speeches.update_one(
@@ -32,14 +32,5 @@ def get_speeches():
 # Main code block
 if __name__ == "__main__":
 
-    # Getting speeches from MongoDB
-    #speechList = get_speeches()
-    #pprint(speechList)
-
+    print ('Cleaning speeches')
     get_speeches()
-
-    # Parsing strings together
-
-    # Removing unimportant words
-
-    # Saving speeches in MongoDB database
