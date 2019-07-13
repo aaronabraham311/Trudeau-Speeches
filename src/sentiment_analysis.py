@@ -4,7 +4,6 @@ from pymongo import MongoClient
 
 # Function to get speech
 def extract_speech():
-
     # Intializing client and navigating to MongoDB database
     client = MongoClient('localhost', 27017)
     db = client.trudeau_speeches
@@ -26,7 +25,7 @@ def sentiment_score(speech):
 
 # Updating database with score:
 def update_db(pos_score, neg_score, neutral_score, compound_score, id, collection):
-
+    # Collection all information into JSON-like structure
     update_info = {"_id": id}, {'$set': {'pos_score': pos_score,
                                          'neg_score': neg_score,
                                          'neutral_score': neutral_score,
@@ -54,3 +53,6 @@ def main():
         # Updating database:
         update_db(positive_score, negative_score, neutral_score, compound_score,
                   speech_id, speeches)
+
+if __name__ == "__main__":
+    main()
