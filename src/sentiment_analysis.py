@@ -26,13 +26,13 @@ def sentiment_score(speech):
 # Updating database with score:
 def update_db(pos_score, neg_score, neutral_score, compound_score, id, collection):
     # Collection all information into JSON-like structure
-    update_info = {"_id": id}, {'$set': {'pos_score': pos_score,
+    filter, update_info = {"_id": id}, {'$set': {'pos_score': pos_score,
                                          'neg_score': neg_score,
                                          'neutral_score': neutral_score,
                                          'compound_score': compound_score}}
 
     # Updating collection:
-    collection.update_one(update_info)
+    collection.update_one(filter, update_info)
 
 # Main function to coordinate all function calls:
 def main():
