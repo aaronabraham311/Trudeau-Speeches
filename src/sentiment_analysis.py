@@ -25,11 +25,32 @@ def sentiment_score(speech):
     return score
 
 # Updating database with score:
-def update_db(pos_score, neg_score, neutral_score, id, collection):
+def update_db(pos_score, neg_score, neutral_score, compound_score, id, collection):
 
     update_info = {"_id": id}, {'$set': {'pos_score': pos_score,
                                          'neg_score': neg_score,
-                                         'neutral_score': neutral_score}}
+                                         'neutral_score': neutral_score,
+                                         'compound_score': compound_score}}
 
     # Updating collection:
-    collection.update(update_info)
+    collection.update_one(update_info)
+
+# Main function to coordinate all function calls:
+def main():
+    # Getting speeches
+    speeches = extract_speech()
+
+    for speech in speeches.find():
+        speech_content = speech['details']
+        speech_id = speech['_id']
+
+        # Getting sentiment scores:
+        speech_scores = sentiment_score(speech_content)
+        positive_score = speech_scores['pos']
+        negative_score = speech_scores['neg']
+        neutral_score = speech_scores['neu']
+        compound_score = speech_scores['compound']
+
+        # Updating database:
+        update_db(positive_score, negative_score, neutral_score, compound_score,
+                  speech_id, speeches)
