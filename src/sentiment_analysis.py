@@ -23,3 +23,13 @@ def sentiment_score(speech):
     print("Score: ", score)
 
     return score
+
+# Updating database with score:
+def update_db(pos_score, neg_score, neutral_score, id, collection):
+
+    update_info = {"_id": id}, {'$set': {'pos_score': pos_score,
+                                         'neg_score': neg_score,
+                                         'neutral_score': neutral_score}}
+
+    # Updating collection:
+    collection.update(update_info)
