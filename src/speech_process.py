@@ -13,17 +13,6 @@ spacy.load('en')
 from spacy.lang.en import English
 parser = English()
 
-import gensim
-
-"""
-TO DO:
-- Tokenize text
-- Bigram and trigram text
-- Lemmatize text
-- Stopword removal
-- Bag-of-words: either in this script or next script
-"""
-
 # Function to tokenize text
 def tokenize_text (text):
     # Initial set up
@@ -72,3 +61,30 @@ def extract_speech():
 
     return speeches
 
+# Function to update the database
+def update_db(tokens, bigrams, trigrams, id, collection):
+    # Combining filter and information to update
+    filter, update_info = {'_id': id}, {'$set' : {'tokens': tokens,
+                                                  'bigrams': bigrams,
+                                                  'trigrams': trigrams}}
+
+    # Updating:
+    collection.update_one(filter, update_info)
+
+
+# Main function
+def main():
+    speeches = extract_speech()
+
+    for speech in speeches:
+        speech_id = speech['_id']
+        speech_content = speech['details']
+
+        # Processing speech
+        tokens, bigrams, trigrams = prepare_text(speech_content)
+
+        # Putting back into database
+        update_db(tokens, bigrams, trigrams, speech_id, speeches)
+
+if __name__ == '__main__':
+    main()
