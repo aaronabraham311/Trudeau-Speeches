@@ -45,3 +45,21 @@ def ngram_text(text, n):
 # Function to lemmatize text (find synonyms/root)
 def get_lemma(text):
     return WordNetLemmatizer().lemmatize(text)
+
+# Overall text preparation function
+def prepare_text(text):
+    tokens = tokenize_text(text)
+
+    # Removing short tokens and stopword tokens
+    tokens = [token for token in tokens if len(tokens) > 3]
+    tokens = [token for token in tokens if not in en_stop]
+
+    # Lemmatizing tokens
+    tokens = [get_lemma(token) for token in tokens]
+
+    # Getting bigrams and trigrams
+    bigrams = ngram_text(tokens, 2)
+    trigrams = ngram_text(tokens, 3)
+
+    return tokens, bigrams, trigrams
+
