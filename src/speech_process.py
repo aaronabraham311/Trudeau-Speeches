@@ -2,6 +2,7 @@
 from pymongo import MongoClient
 
 import nltk
+from nltk.util import ngrams
 nltk.download('wordnet')
 from nltk.stem.wordnet import WordNetLemmatizer
 nltk.download('stopwords')
@@ -35,3 +36,9 @@ def tokenize_text (text):
         lda_tokens.append(token.lower_) # Converts all tokens into lower case
 
     return lda_tokens
+
+# Converts tokens into bigrams (n = 2) or trigrams (n = 3)
+def ngram_text(text, n):
+    bigram_list = list(ngrams(text, n))
+    return bigram_list
+
