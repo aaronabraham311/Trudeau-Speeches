@@ -11,4 +11,15 @@ def extract_speech():
     speeches = db.db_speeches
 
     return speeches
-g
+
+# Getting sentiment score of each speech
+def sentiment_score(speech):
+    # Intializing analyzer object
+    analyzer = SentimentIntensityAnalyzer()
+
+    # Outputting and returning speech sentiment score
+    score = analyzer.polarity_scores(speech)
+    print("Speech: ", speech)
+    print("Score: ", score)
+
+    return score
