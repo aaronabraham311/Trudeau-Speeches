@@ -42,3 +42,6 @@ def ngram_text(text, n):
     bigram_list = list(ngrams(text, n))
     return bigram_list
 
+# Function to lemmatize text (find synonyms/root)
+def get_lemma(text):
+    return WordNetLemmatizer().lemmatize(text)
