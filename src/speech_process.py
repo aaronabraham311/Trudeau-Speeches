@@ -23,3 +23,15 @@ TO DO:
 - Bag-of-words: either in this script or next script
 """
 
+# Function to tokenize text
+def tokenize_text (text):
+    # Initial set up
+    lda_tokens = []
+    tokens = parser(text)
+
+    for token in tokens:
+        if token.orth_.isspace(): # Skips over space tokens
+            continue
+        lda_tokens.append(token.lower_) # Converts all tokens into lower case
+
+    return lda_tokens
