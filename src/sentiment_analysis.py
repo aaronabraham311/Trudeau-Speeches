@@ -11,3 +11,4 @@ def extract_speech():
     speeches = db.db_speeches
 
     return speeches
+g
