@@ -2,12 +2,25 @@
 from pymongo import MongoClient
 
 import nltk
+import ssl
 from nltk.util import ngrams
+
+# Downloading nltk datasets
+try:
+    _create_unverified_https_context = ssl._create_unverified_context
+except AttributeError:
+    pass
+else:
+    ssl._create_default_https_context = _create_unverified_https_context
+
 nltk.download('wordnet')
-from nltk.stem.wordnet import WordNetLemmatizer
 nltk.download('stopwords')
+
+
+from nltk.stem.wordnet import WordNetLemmatizer
 en_stop = set(nltk.corpus.stopwords.words('english'))
 
+# Importing spacy
 import spacy
 spacy.load('en')
 from spacy.lang.en import English
