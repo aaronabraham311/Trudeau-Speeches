@@ -41,7 +41,7 @@ def prepare_text(text):
 
     # Removing short tokens and stopword tokens
     tokens = [token for token in tokens if len(tokens) > 3]
-    tokens = [token for token in tokens if not in en_stop]
+    tokens = [token for token in tokens if (token not in en_stop)]
 
     # Lemmatizing tokens
     tokens = [get_lemma(token) for token in tokens]
@@ -76,7 +76,7 @@ def update_db(tokens, bigrams, trigrams, id, collection):
 def main():
     speeches = extract_speech()
 
-    for speech in speeches:
+    for speech in speeches.find():
         speech_id = speech['_id']
         speech_content = speech['details']
 
