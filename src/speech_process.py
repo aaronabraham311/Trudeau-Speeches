@@ -28,14 +28,11 @@ parser = English()
 
 # Function to tokenize text
 def tokenize_text (text):
-    # Initial set up
-    lda_tokens = []
-    tokens = parser(text)
+    # Tokenizing text
+    lda_tokens = nltk.word_tokenize(text)
 
-    for token in tokens:
-        if token.orth_.isspace(): # Skips over space tokens
-            continue
-        lda_tokens.append(token.lower_) # Converts all tokens into lower case
+    # Making all tokens lowercase
+    lda_tokens = [token.lower() for token in lda_tokens if token.isalpha()]
 
     return lda_tokens
 
