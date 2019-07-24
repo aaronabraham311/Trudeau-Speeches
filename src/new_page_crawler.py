@@ -15,17 +15,11 @@ browser.get(url)
 # Delaying scrapper to prevent scrapper from closing too soon
 browser.implicitly_wait(2)
 
-'''
-while True:
-    try:
-        element = browser.find_element_by_xpath('//*[@id="block-system-main"]/div/ul/li/a')
-        element.click()
-    except:
-        break
-'''
 
 wait = WebDriverWait(browser, 10)
 i = 0
+
+# Systematically opens new pages. Need to incorporate in AJAX requests
 while True:
     i += 1
     try:
@@ -37,7 +31,6 @@ while True:
         else:
             xpath = '//*[@id="block-system-main"]/div[{pagenum}]/ul/li/a'
             xpath = xpath.format(pagenum = i)
-            print(xpath)
             element = wait.until(EC.element_to_be_clickable((By.XPATH, xpath)))
             element.click()
     except:
