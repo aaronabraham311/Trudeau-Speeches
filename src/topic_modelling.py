@@ -36,7 +36,7 @@ def lda_model(text, NTOPIC):
     # Creating model:
     ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics = NTOPIC, id2word = dictionary,
                                                passes = 20)
-    topics = ldamodel.print_topics(num_words = 4)
+    topics = ldamodel.print_topics(num_words = 3)
     ldamodel.save("../../data/lda_model.gensim")
 
     print("Outputting topics from LDA model: ")
@@ -68,7 +68,9 @@ def extract_speech_data():
     speech_tokens = []
 
     for speech in collection.find():
-        speech_tokens.append(speech['tokens'])
+        speech_tokens.append({
+            'tokens': speech['tokens'],
+            'speech': speech['details'])
 
     return speech_tokens
 
@@ -131,9 +133,23 @@ if __name__ == '__main__':
     print ("Please enter the number of topics you would like to find in the comments or posts: ")
     num_topics = int(input())
 
-    collection = extract_speech_data()
+    # Getting speech tokens and actual speeches
+    speech_data = extract_speech_data()
 
-    print ("Please note the indices of the topics. We will now conduct topic modelling on more speeches")
+    # Separating tokens:
+    speech_tokens = []
+
+    for speech in speech_data:
+        speech_tokens.append(speech['tokens'])
+
+    # Creating model, dictionary and topics
+    lda_model, dictionary, topics = lda_model(speech_tokens, num_topics)
+
+    print("Please note the indices of the topics. We will now conduct topic modelling on more speeches")
+    # Predicting on speeches
+    for speech in speech_tokens:
+        prediction = predict_topic(lda_model, speech_tokens['tokens'], dictionary)
+        db_topic_predictions_update()
 
     if data_type_choice == 'post':
         processed_posts, actual_posts = scrape_reddit_post(subreddit, 10, reddit_obj)
