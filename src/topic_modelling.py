@@ -21,35 +21,7 @@ import gensim
 from gensim import corpora
 import praw
 
-# *************************************** FUNCTIONS ***********************************
-# Tokenizing text (separating text into individual words
-def tokenize(text):
-    lda_tokens = []
-    tokens = parser(text)
-
-    # Handling tokens that have little to no meaning
-    for token in tokens:
-        if token.orth_.isspace(): # Skips over spaces
-            continue
-        elif token.like_url: # Puts in 'URL' instead of actual URL
-            lda_tokens.append('URL')
-        elif token.orth_.startswith('@'): # Handling social media handles
-            lda_tokens.append('SCREEN_NAME')
-        else:
-            lda_tokens.append(token.lower_) # Putting all tokens into lowercase
-    return lda_tokens
-
-# Getting lemma of a word (A lemma is the morphological basis of a word. Eg. lemma of studies is study)
-def get_lemma(word):
-    return WordNetLemmatizer().lemmatize(word)
-
-def prepare_text(text):
-    tokens = tokenize(text)
-    tokens = [token for token in tokens if len(token) > 4] # Only selecting tokens that are greater than 4
-    tokens = [token for token in tokens if token not in en_stop] # Selecting non-stopwords
-    tokens = [get_lemma(token) for token in tokens] # Getting lemma for each word
-    return tokens
-
+# *************************************** FUNCTIONS **********************************
 
 # Creating latent Dirichlet allocation model
 def lda_model(text, NTOPIC):
@@ -85,7 +57,7 @@ def predict_topic(model, text, dictionary):
 
 # Please remember to enter 'mongod' on command line
 # Function to extract data from MongoDB collection
-def extract_data():
+def extract_speech_data():
     # Initializing client:
     client = MongoClient('localhost', 27017)
 
@@ -93,7 +65,12 @@ def extract_data():
     db = client.trudeau_speeches
     collection = db.db_speeches
 
-    return collection
+    speech_tokens = []
+
+    for speech in collection.find():
+        speech_tokens.append(speech['tokens'])
+
+    return speech_tokens
 
 # Preprocesses all comments and logs into one array
 def tokenize_whole_data(collection):
@@ -154,9 +131,7 @@ if __name__ == '__main__':
     print ("Please enter the number of topics you would like to find in the comments or posts: ")
     num_topics = int(input())
 
-    collection = extract_data()
-    text_data = tokenize_whole_data(collection, data_type_choice)
-    lda_model, dictionary, topics = lda_model(text_data, num_topics)
+    collection = extract_speech_data()
 
     print ("Please note the indices of the topics. We will now conduct topic modelling on more speeches")
 
