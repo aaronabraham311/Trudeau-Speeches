@@ -111,20 +111,18 @@ def db_lda_topic_update(topics, collection_type):
 
 # Puts predictions of topics of newly scrapped comments/posts into database
 # Make separate collections for post and comment
-def db_topic_predictions_update(text, prediction, collection_type):
+def db_topic_predictions_update(text, prediction):
     client = MongoClient()
 
     # Navigating to collection:
-    db = client.stellar_algo_reddit
+    db = client.trudeau_speeches
+    collection = db.predictions
 
-    # Inserting record into different collections based on whether the text is a comment or post
-    if collection_type == 'post':
-        post_topic_predictions = db.post_topic_predictions
-        post_topic_predictions.insert_one({text: prediction})
-
-    elif collection_type == 'comment':
-        comment_topic_predictions = db.comment_topic_predictions
-        comment_topic_predictions.insert_one({text: prediction})
+    # Inserting speech and prediction into record
+    collection.insert_one({
+        'speech' : text,
+        'topics' : prediction
+    })
 
 if __name__ == '__main__':
     print ("Welcome to to the topic modeller script. In this script, a latent Dirichlet allocation model built on previously scrapped speeches is constructed. "
@@ -145,26 +143,11 @@ if __name__ == '__main__':
     # Creating model, dictionary and topics
     lda_model, dictionary, topics = lda_model(speech_tokens, num_topics)
 
+    # STORE TOPICS IN MONGO
+
     print("Please note the indices of the topics. We will now conduct topic modelling on more speeches")
+
     # Predicting on speeches
     for speech in speech_tokens:
-        prediction = predict_topic(lda_model, speech_tokens['tokens'], dictionary)
-        db_topic_predictions_update()
-
-    if data_type_choice == 'post':
-        processed_posts, actual_posts = scrape_reddit_post(subreddit, 10, reddit_obj)
-
-        for processed_post, actual_post in zip(processed_posts, actual_posts):
-            prediction = predict_topic(lda_model, processed_post, dictionary)
-
-            db_topic_predictions_update(actual_post, prediction, 'post')
-
-
-    elif data_type_choice == 'comment':
-        processed_comments, actual_comments = scrape_reddit_comment(subreddit, 10, 10, reddit_obj)
-
-        for processed_comment, actual_comment in zip(processed_comments, actual_comments):
-            prediction = predict_topic(lda_model, processed_comment, dictionary)
-
-            actual_comment = actual_comment.replace('.', '')
-            db_topic_predictions_update(actual_comment, prediction, 'comment')
+        prediction = predict_topic(lda_model, speech['tokens'], dictionary)
+        db_topic_predictions_update(speech['speech'], prediction)
