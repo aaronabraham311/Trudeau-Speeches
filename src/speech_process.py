@@ -28,13 +28,21 @@ parser = English()
 
 # Function to tokenize text
 def tokenize_text (text):
-    # Tokenizing text
-    lda_tokens = nltk.word_tokenize(text)
+    lda_tokens = []
+    tokens = parser(text)
 
-    # Making all tokens lowercase
-    lda_tokens = [token.lower() for token in lda_tokens if token.isalpha()]
-
+    # Handling tokens that have little to no meaning
+    for token in tokens:
+        if token.orth_.isspace():  # Skips over spaces
+            continue
+        elif token.like_url:  # Puts in 'URL' instead of actual URL
+            lda_tokens.append('URL')
+        elif token.orth_.startswith('@'):  # Handling social media handles
+            lda_tokens.append('SCREEN_NAME')
+        else:
+            lda_tokens.append(token.lower_)  # Putting all tokens into lowercase
     return lda_tokens
+
 
 # Converts tokens into bigrams (n = 2) or trigrams (n = 3)
 def ngram_text(text, n):
