@@ -19,7 +19,7 @@ import pickle
 from pymongo import MongoClient
 import gensim
 from gensim import corpora
-import praw
+import os
 
 # *************************************** FUNCTIONS **********************************
 
@@ -30,14 +30,19 @@ def lda_model(text, NTOPIC):
     corpus = [dictionary.doc2bow(token) for token in text]
 
     # Saving corpus and dictionary for later use
-    pickle.dump(corpus, open('../../data/corpus.pkl', 'wb'))
-    dictionary.save('../../data/dictionary.gensim')
+    corpus_filename = '../data/corpus.pkl'
+    os.makedirs(os.path.dirname(corpus_filename), exist_ok= True)
+
+    with open(corpus_filename, 'wb') as filename:
+        pickle.dump(corpus, filename)
+
+    dictionary.save('../data/dictionary.gensim')
 
     # Creating model:
     ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics = NTOPIC, id2word = dictionary,
                                                passes = 20)
     topics = ldamodel.print_topics(num_words = 3)
-    ldamodel.save("../../data/lda_model.gensim")
+    ldamodel.save("../data/lda_model.gensim")
 
     print("Outputting topics from LDA model: ")
     for topic in topics:
@@ -70,25 +75,11 @@ def extract_speech_data():
     for speech in collection.find():
         speech_tokens.append({
             'tokens': speech['tokens'],
-            'speech': speech['details'])
+            'speech': speech['details']})
 
     return speech_tokens
 
-# Preprocesses all comments and logs into one array
-def tokenize_whole_data(collection):
-    # Loops through all dataframes, selects content, and passes to analyzer function
-    whole_text_data = []
-
-    for data in collection.find():
-        attribute = 'details'
-        data_content = data[attribute]
-        data_content = prepare_text(data_content)
-        whole_text_data.append(data_content)
-
-    return whole_text_data
-
-
-# Puts topics intially found by LDA on training data into database
+# Puts topics initially found by LDA on training data into database
 def db_lda_topic_update(topics, collection_type):
     client = MongoClient('localhost', 27107)
 
@@ -128,7 +119,7 @@ if __name__ == '__main__':
     print ("Welcome to to the topic modeller script. In this script, a latent Dirichlet allocation model built on previously scrapped speeches is constructed. "
            "Then, we will scrape additional speeches and show the topic probability. ")
 
-    print ("Please enter the number of topics you would like to find in the comments or posts: ")
+    print ("Please enter the number of topics you would like to find in the speches: ")
     num_topics = int(input())
 
     # Getting speech tokens and actual speeches
@@ -149,5 +140,6 @@ if __name__ == '__main__':
 
     # Predicting on speeches
     for speech in speech_tokens:
-        prediction = predict_topic(lda_model, speech['tokens'], dictionary)
+        tokens = speech['tokens']
+        prediction = predict_topic(lda_model, tokens, dictionary)
         db_topic_predictions_update(speech['speech'], prediction)
