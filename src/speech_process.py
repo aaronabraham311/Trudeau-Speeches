@@ -26,6 +26,8 @@ spacy.load('en')
 from spacy.lang.en import English
 parser = English()
 
+import string
+
 # Function to tokenize text
 def tokenize_text (text):
     lda_tokens = []
@@ -41,6 +43,10 @@ def tokenize_text (text):
             lda_tokens.append('SCREEN_NAME')
         else:
             lda_tokens.append(token.lower_)  # Putting all tokens into lowercase
+
+    # Removing punctuation
+    lda_tokens = [token for token in lda_tokens if token.isalpha()]
+
     return lda_tokens
 
 

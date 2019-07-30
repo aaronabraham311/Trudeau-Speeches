@@ -1,8 +1,17 @@
 # **************************************** MODULES ************************************
 #  NLTK setup
+import ssl
+
+try:
+    _create_unverified_https_context = ssl._create_unverified_context
+except AttributeError:
+    pass
+else:
+    ssl._create_default_https_context = _create_unverified_https_context
+
 import nltk
 nltk.download('wordnet')# Database for English
-from nltk.stem.wordnet import WordNetLemmatizer # Lemmatizes words
+
 # Stopword setup
 nltk.download('stopwords')
 en_stop = set(nltk.corpus.stopwords.words('english'))
@@ -140,6 +149,7 @@ if __name__ == '__main__':
 
     # Predicting on speeches
     for speech in speech_tokens:
-        tokens = speech['tokens']
-        prediction = predict_topic(lda_model, tokens, dictionary)
-        db_topic_predictions_update(speech['speech'], prediction)
+        prediction = predict_topic(lda_model, speech, dictionary)
+        db_topic_predictions_update(speech, prediction)
+
+    print(len(speech_data))
