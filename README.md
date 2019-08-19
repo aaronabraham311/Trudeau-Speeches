@@ -1,4 +1,7 @@
 # Trudeau's Speeches: An Exercise in Sentiment Analysis and Topic Modelling
+
+Article link: https://towardsdatascience.com/analyzing-justin-trudeaus-speeches-3ba2690ad57a
+
 Canada will be entering the election season soon, with the projected election date to be on October 21, 2019. This election, in many ways, will be an interesting event. From the rise of populism across the world to refugee crises, Prime Minister Justin Trudeau had an extremely difficult term. These elections will be the chance for Canadian citizens to voice their concerns over Prime Minister Trudeau's policies. 
 
 Usually, citizens like to listen to debates and speeches by candidates on the campaign trail and occasionally dive into party platforms. But I propose a new way of judging candidates, especially incumbents: their official speeches. More often than not, they are a general representation of the government's agenda. I was inspired to analyze Prime Minister Trudeau's speeches when I heard of individuals examining President Trump's tweets; I thought speeches would be a great way of looking at a politician's sentiment over time, especially in lieu of elections.
